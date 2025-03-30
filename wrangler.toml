@@ -1,0 +1,14 @@
+name = "delta-flight-tracker"
+main = "src/index.ts"
+compatibility_date = "2025-03-29"
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "delta_flight_tracker"
+database_id = "delta-flight-tracker-db"
+
+[site]
+bucket = "./public"
+
+[build]
+command = "npm run build"
